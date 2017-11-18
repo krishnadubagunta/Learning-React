@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300');
+
+html {
+	font-family: 'Heebo', sans-serif;
+	font-size: 1em;
+}
+
+.light-text {
+	font-weight: 300;
+}
+
+li .logout-btn {
+	border-radius: 5px;
+}
+
+.overflow-control {
+	overflow-y: hidden;
+}
+
+.px-10-left {
+	padding-left: 10px;
+}
+
+.center-top {
+	position: absolute;
+	margin-left: -15px;
+	font-size: small;
+}
+
+.font-size-24 * {
+	font-size: 24px;
+}
+
+.no-hover:hover {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.font-size-18 {
+	font-size: 18px;
+}
+
+.all-black * {
+	color: black !important;
+}
+
+.box-inline * {
+	display: inline;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+@media (max-width: 667px) {
+	html {
+		font-size: 0.8em;
+	}
+
+	.hide-on-small {
+		display: none;
+	}
+
+	.med-on-small {
+		font-size: 1em;
+	}
+}

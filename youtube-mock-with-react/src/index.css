@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  background-color: inherit;
+  height: auto;
+}
+
+.video-list-item :hover {
+  cursor: pointer;
+  background-color: #e9e9e9;
+}
+
+.video-list-item .title {
+  color: black;
+  font-weight: 400;
+}
+
+.title {
+  color: black;
+  font-weight: 400;
+}
+
+.nav-background {
+  background: linear-gradient(90deg,rgba(227, 48, 48, 1),rgba(195, 29, 38, 1));
+  max-height: 125px;
+}
+
+.searchBar input:focus {
+  border-color: lightgray;
+}
+
+.video-item {
+  max-height: 450px;
+}
+
+.video-description .lead {
+  color: black;
+}
+
+.video-description .meta {
+  color: gray;
+  font-size: small;
+  overflow: hidden;
+  max-height: 60px;
+}
+
+@media (min-width : 960px) {
+  .video-item {
+    height: 500px;
+  }
+
+  .video-description .lead{
+    font-size: large;
+  }
+
+  .searchBar {
+    width: 70%;
+  }
+
+}
+
+@media (max-width : 740px) {
+  .video-item{
+    height: 250px;
+  }
+
+  .searchBar{
+    height: 25px;
+    width: 80%;
+  }
+
+  .video-description .lead{
+    font-size: small;
+  }
+
+
+}

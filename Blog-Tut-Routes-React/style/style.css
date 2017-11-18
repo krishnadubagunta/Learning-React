@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+html,body {
+  margin : 0px auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: 300;
+  height: 100%;
+  width: 100%;
+}
+
+.p-3 {
+  padding-top : 0.3rem !important;
+}
+
+.header-class > div.jumbotron {
+  background-color:  white;
+  border-left : 4px solid  #5cb85c;
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-size: 4vw;
+}
+
+form a {
+  margin-left: 10px;
+}
+
+.shrink-text {
+  font-size: 1em;
+  text-align: center;
+}
+
+.header-class > div {
+  vertical-align: middle !important;
+}
+
+img {
+  border-radius: 50%;
+  vertical-align: top;
+  height: 10vw;
+  width: 10vw;
+}
+
+.header-class {
+  color: #000;
+}
+
+.header-class > ul > li {
+  text-align: left;
+}
+
+.span-error {
+  font-size: small !important;
+  color: rgba(255, 0, 0, 0.7); !important;
+}
+
+.material-icons.md-dark { color: white; }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); background-color: rgba(0,0,0,1);}
+.material-icons.md-48 { font-size: 36px; box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.54);  border-radius: 50%; background-color: black;}

@@ -1,0 +1,11 @@
+body {
+  overflow-y: inherit;
+}
+
+.video-list-item {
+  cursor: pointer;
+}
+
+.video-list-item:hover {
+  background-color: #eee;
+}
